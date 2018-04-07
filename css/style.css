@@ -1,0 +1,110 @@
+body {
+  position: relative;
+}
+
+body::after {
+  content: '';
+  display: block;
+  height: 50px; /* Set same as footer's height */
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
+
+.sponsorLogo{
+	width:200px;
+	height:100px;	
+	margin:20px;
+	border: 1px solid black;
+	padding:5px;
+	margin-left:0px;
+}
+
+.nav-item{
+	background: black;
+	margin:5px;
+	padding-left:5px;
+	padding-right:5px;
+	border-radius:20px;
+}
+
+.nav-item:hover{
+	/*background: white;*/
+}
+
+#sponsorPane{
+	padding:0px;
+	margin:10px;
+	width:100%;
+	background-color:#aaffaa;
+	background-clip:initial;	
+}
+
+.myContainer{
+	background-clip:content-box;
+}
+
+.contentBox{
+	padding-left:40px;
+	padding-right:40px;
+	font-size:1.1em;
+	padding-top:30px;
+	padding-bottom:30px;
+	color: black;
+}
+
+.venueBox{
+	background-color:black;
+	color:lightBlue;
+    padding: 5px;
+    padding-left: 40px;
+}
+
+#description{
+	font-family: Lora, serif;
+}
+
+#myCarousel{
+	margin-bottom:0px;
+}
+
+#myBanner{
+	height:350px;
+	overflow: hidden;
+	margin-bottom:-40px;
+}
+
+#myCarousel > .carousel-inner > .carousel-item{
+	height: 350px;
+}
+
+#myBanner > .carousel-inner > .carousel-item{
+	height: 350px;
+}
+
+.customNav{
+	background-color: #30C9E9;
+}
+
+.custom{
+    background-color: #0185B6;
+}
+
+.custom:hover{
+    background-color: #2B60DE;
+}
+
+h1, h2, h3{
+	color: #ff4444;
+}
+h4, h5{
+	color: #1111aa;	
+}
+
+#leftpanel{
+	float : right;
+}
